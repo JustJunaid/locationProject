@@ -1,0 +1,17 @@
+POST http://127.0.0.1:4000/get_locations
+Content-Type: application/json
+
+{
+    "location_type": "Type A",
+    "page_number": 2
+}
+
+#########
+POST http://127.0.0.1:4000/map
+Content-Type: application/json
+
+{
+    "location_type": "Point",
+    "coordinates": [22.3, 33.2]
+}
+
